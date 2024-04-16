@@ -1,6 +1,6 @@
 # GitHub Actions Workflows 🚀
 
-Esta organização tem como objetivo agrupar workflows reaprovetáveis do GitHub Actions. Aqui você irá encontrar workflows para Python, Docker, Terraform, AWS Beanstalk, AWS Lambda entre outros. A maioria dos workflows são apenas wrappers de outras actions abstraídos apenas para facilitar a utilização em outros projetos.
+Esta organização tem como objetivo agrupar workflows reaprovetáveis do GitHub Actions. Aqui você irá encontrar workflows para Python, Docker, Terraform, AWS Beanstalk, AWS Lambda entre outros. A maioria dos workflows são apenas wrappers de outras actions abstraídos para facilitar a utilização em outros projetos.
 
 ## Repositórios em destaque ✅
 
