@@ -5,6 +5,7 @@ Esta organização tem como objetivo agrupar workflows reaprovetáveis do GitHub
 ## Repositórios em destaque ✅
 
 * [Deploy Render](https://github.com/gh-actions-workflows/deploy-docker-render)
+* [Java Workflows](https://github.com/gh-actions-workflows/java-workflows)
 * [Python Workflows](https://github.com/gh-actions-workflows/python-workflows)
 * [Docker Workflows](https://github.com/gh-actions-workflows/docker-workflows)
 * [Terraform Workflows](https://github.com/gh-actions-workflows/terraform-workflows)
