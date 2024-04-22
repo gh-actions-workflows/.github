@@ -58,7 +58,7 @@ jobs:
     uses: gh-actions-workflows/python-workflows/.github/workflows/pytest.yaml@master
 
   publish:
-    uses: gh-actions-workflows/docker-workflows/.github/workflows/docker-publish.yaml@master
+    uses: gh-actions-workflows/docker-workflows/.github/workflows/docker-publish.yaml@v1.0
     if: ${{ github.ref_name == 'master' || github.ref_name == 'develop'}}
     needs: test
     with:
@@ -73,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Render
-        uses: gh-actions-workflows/deploy-docker-render@v1.1
+        uses: gh-actions-workflows/deploy-docker-render@v1.3
         with:
           deploy-hook: ${{ secrets.RENDER_DEPLOY_HOOK }}
           image-url: ${{ needs.publish.outputs.image_name }}
