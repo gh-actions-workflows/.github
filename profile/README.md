@@ -1,8 +1,8 @@
 # GitHub Actions Workflows 🚀
 
-Esta organização tem como objetivo agrupar workflows reaprovetáveis do GitHub Actions. Aqui você irá encontrar workflows para Python, Docker, Terraform, AWS Beanstalk, AWS Lambda entre outros. A maioria dos workflows são apenas wrappers de outras actions abstraídos para facilitar a utilização em outros projetos.
+This organization aims to group reusable GitHub Actions workflows. Here you will find workflows for Python, Docker, Terraform, AWS Beanstalk, AWS Lambda and others. Most workflows are just wrappers for other abstract actions to make them easier to use in other projects.
 
-## Repositórios em destaque ✅
+## Featured repositories ✅
 
 * [Deploy Render](https://github.com/gh-actions-workflows/deploy-docker-render)
 * [Java Workflows](https://github.com/gh-actions-workflows/java-workflows)
@@ -11,9 +11,9 @@ Esta organização tem como objetivo agrupar workflows reaprovetáveis do GitHub
 * [Terraform Workflows](https://github.com/gh-actions-workflows/terraform-workflows)
 * [Deploy AWS Lambda](https://github.com/gh-actions-workflows/aws-lambda-workflows)
 
-## Exemplos de uso 💯
+## Usage examples 💯
 
-Workflow para verificação de código Python com Flake8 e Pytest, e deploy no AWS Lambda.
+Workflow for checking Python code with Flake8 and Pytest, and deploying to AWS Lambda.
 
 ```yaml
 name: Python Workflow
@@ -43,7 +43,7 @@ jobs:
       aws_region: ${{ secrets.AWS_REGION }
 ```
 
-Workflow para verificação de código Python com Flake8 e Pytest, e deploy no Render.
+Workflow for checking Python code with Flake8 and Pytest, and deploying to Render.
 
 ```yaml
 name: My Workflow
@@ -81,7 +81,7 @@ jobs:
           wait-for-deployment: true
 ```
 
-## Informações de contato 📞
+## Contact Information 📞
 
 <a href="https://www.linkedin.com/in/pedro-henrique-pereira-almeida/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 <a href = "mailto:pedro.6571almeida@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
